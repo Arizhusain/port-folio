@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './Components/Header/Header';
+import HeroBanner from './Components/HeroBanner/HeroBanner';
 
 function App() {
   return (
-    <div>
-      Hello world!
+    <div className='container'>
+      <Header/>
+      <HeroBanner/>
     </div>
   );
 }
