@@ -1,0 +1,34 @@
+.BannerContainer{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.namePlate {
+  color: #ea074d;
+}
+
+.profession {
+  letter-spacing: 5px;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+.description {
+  color: #8b8b8b;
+}
+.btn{
+    height: 3rem;
+    width: 10rem;
+    background-color: #ea074d;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.btn:hover{
+    color: #000;
+}
