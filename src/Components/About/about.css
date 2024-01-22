@@ -6,6 +6,23 @@
   background-color: #1a1a1a;
 }
 
-.aboutWrapper{
-    height: 80vh;
+.aboutWrapper {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.rateContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
 }
