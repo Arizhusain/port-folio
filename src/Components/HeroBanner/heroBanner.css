@@ -1,12 +1,11 @@
 .BannerContainer{
-    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .namePlate {
-  color: #ea074d;
+  color: #C81B27;
 }
 
 .profession {
@@ -15,11 +14,11 @@
   padding: 0;
   margin: 0;
   font-weight: 900;
-  background: url('https://st2.depositphotos.com/1981355/8480/v/450/depositphotos_84803554-stock-illustration-matrix-background.jpg');
+  /* color: transparent;
+  background: url('https://st2.depositphotos.com/1981355/8480/v/450/depositphotos_84803554-stock-illustration-matrix-background.jpg'); */
   background-size: 20% auto;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
   animation: moving 15s alternate infinite;
 }
 @keyframes moving {
@@ -32,11 +31,12 @@
 }
 .description {
   color: #8b8b8b;
+  width: 90%;
 }
 .btn{
     height: 3rem;
     width: 10rem;
-    background-color: #ea074d;
+    background-color: #C81B27;
     color: #FFF;
     border: none;
     border-radius: 5px;

@@ -4,13 +4,13 @@ import avatar from "../../assets/avatar1.png";
 
 const HeroBanner = () => {
   return (
-    <div className="BannerContainer">
+    <div className="BannerContainer"> 
       <div className="bannerWrapper wrapper">
         <div className="imageContainer">
           <img src={avatar} className="avatarImage" />
         </div>
         <div className="textContainer">
-          <h3 className="namePlate">Arifhusain Soudagar</h3>
+          <h3 className="namePlate">Hello I'm Arifhusain</h3>
           <h1 className="profession">Frontend Developer</h1>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.

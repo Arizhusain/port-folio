@@ -12,8 +12,9 @@
   width: 100%;
 }
 .logo{
-    flex:3;
+    flex:2;
     cursor: pointer;
+    font-family: 'Rubik Burned', system-ui;
 }
 .menu {
   display: flex;
@@ -25,11 +26,12 @@
     list-style: none;
     font-size: 12px; 
     font-weight: 600;
+    letter-spacing: 2px;
 }
 .menuitems:hover{
     cursor: pointer;
-    color: #ea074d;
+    color: #C81B27;
 }
 .postfix{
-    color: #ea074d;
+    color: #C81B27;
 }
